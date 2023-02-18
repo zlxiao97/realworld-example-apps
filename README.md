@@ -33,7 +33,7 @@
   - how to install deps for specific project
 
     ```shell
-    pnpm add package-name -F=@template/project-name
+    pnpm add package-name -F=@rea/project-name
     ```
 
   - how to install deps at root level

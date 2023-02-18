@@ -1,6 +1,5 @@
-const reactPaths = ['domains/finance/finance-admin-react/src/**/*.{js,ts,jsx,tsx}'];
-const vuePaths = ['domains/finance/finance-admin-vue3/src/**/*.{js,ts,vue}'];
-const miniAppPaths = ['domains/finance/finance-wechat-app/src/**/*.{js}'];
+const reactPaths = ['apps/**/src/**/*.{js,ts,jsx,tsx}'];
+const vuePaths = ['apps/**/src/**/*.{js,ts,vue}'];
 
 module.exports = {
   parserOptions: {
@@ -15,10 +14,6 @@ module.exports = {
     {
       files: vuePaths,
       ...require('./.eslintrc.vue.js'),
-    },
-    {
-      files: miniAppPaths,
-      ...require('./.eslintrc.miniapp.js'),
     },
   ],
 };

@@ -1,11 +1,11 @@
 {
-  "name": "@template",
+  "name": "@rea",
   "version": "1.0.0",
   "private": "true",
   "scripts": {
     "prepare": "husky install",
     "build": "pnpm -r build",
-    "build:docs": "pnpm -F @template/docs build",
+    "build:docs": "pnpm -F @rea/docs build",
     "dev": "pnpm -r dev",
     "commit": "git cz",
     "lint": "eslint .",
