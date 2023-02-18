@@ -1,5 +1,5 @@
-const reactPaths = ['apps/**/src/**/*.{js,ts,jsx,tsx}'];
-const vuePaths = ['apps/**/src/**/*.{js,ts,vue}'];
+// const reactPaths = ['apps/**/src/**/*.{js,ts,jsx,tsx}'];
+const vuePaths = ['apps/nuxt-frontend/**/*.{js,ts,vue}'];
 
 module.exports = {
   parserOptions: {
@@ -7,10 +7,10 @@ module.exports = {
     sourceType: 'module',
   },
   overrides: [
-    {
-      files: reactPaths,
-      ...require('./.eslintrc.react.js'),
-    },
+    // {
+    //   files: reactPaths,
+    //   ...require('./.eslintrc.react.js'),
+    // },
     {
       files: vuePaths,
       ...require('./.eslintrc.vue.js'),
