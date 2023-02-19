@@ -8,7 +8,23 @@
 
 <br>
 
-### RELEASE: 1.1.0
+### RELEASE: [v1.2.0](https://github.com/zlxiao97/realworld-example-apps/compare/v1.1.0...v1.2.0)
+
+![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+
+> 📦 nuxt frontend docs [`ecd0bca`](https://github.com/zlxiao97/realworld-example-apps/commit/ecd0bca8b254281aa46695c486cd598ef4527c0b) <br>
+
+![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=E28700)
+
+> 🐛 pnpm workflow [`81f88a1`](https://github.com/zlxiao97/realworld-example-apps/commit/81f88a14d0bd3dbb7b97863c60bd5dcd4ff4bea3) <br>
+> 🐛 vitepress base [`d4a1c67`](https://github.com/zlxiao97/realworld-example-apps/commit/d4a1c676a010f07368b69512f1f7ac922666c609) <br>
+> 🐛 pnpm workflow [`ac8271a`](https://github.com/zlxiao97/realworld-example-apps/commit/ac8271ac723bfacca0ed45ab97efa3bdd1f2840f) <br>
+
+<br>
+
+<br>
+
+### RELEASE: v1.1.0
 
 ![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
 
