@@ -39,8 +39,13 @@ importers:
 
   apps/nuxt-frontend:
     specifiers:
+      miragejs: 0.1.47
+      moment: 2.29.4
       nuxt: ^3.2.2
+    dependencies:
+      moment: registry.npmmirror.com/moment/2.29.4
     devDependencies:
+      miragejs: registry.npmmirror.com/miragejs/0.1.47
       nuxt: registry.npmmirror.com/nuxt/3.2.2
 
   docs:
@@ -2098,6 +2103,17 @@ packages:
     transitivePeerDependencies:
       - encoding
       - supports-color
+    dev: true
+
+  registry.npmmirror.com/@miragejs/pretender-node-polyfill/0.1.2:
+    resolution:
+      {
+        integrity: sha512-M/BexG/p05C5lFfMunxo/QcgIJnMT2vDVCd00wNqK2ImZONIlEETZwWJu1QtLxtmYlSHlCFl3JNzp0tLe7OJ5g==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/@miragejs/pretender-node-polyfill/-/pretender-node-polyfill-0.1.2.tgz,
+      }
+    name: '@miragejs/pretender-node-polyfill'
+    version: 0.1.2
     dev: true
 
   registry.npmmirror.com/@netlify/functions/1.4.0:
@@ -6321,6 +6337,17 @@ packages:
       ufo: registry.npmmirror.com/ufo/1.1.0
     dev: true
 
+  registry.npmmirror.com/fake-xml-http-request/2.1.2:
+    resolution:
+      {
+        integrity: sha512-HaFMBi7r+oEC9iJNpc3bvcW7Z7iLmM26hPDmlb0mFwyANSsOQAtJxbdWsXITKOzZUyMYK0zYCv3h5yDj9TsiXg==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/fake-xml-http-request/-/fake-xml-http-request-2.1.2.tgz,
+      }
+    name: fake-xml-http-request
+    version: 2.1.2
+    dev: true
+
   registry.npmmirror.com/fast-deep-equal/3.1.3:
     resolution:
       {
@@ -7505,6 +7532,17 @@ packages:
     engines: { node: '>=8' }
     dev: true
 
+  registry.npmmirror.com/inflected/2.1.0:
+    resolution:
+      {
+        integrity: sha512-hAEKNxvHf2Iq3H60oMBHkB4wl5jn3TPF3+fXek/sRwAB5gP9xWs4r7aweSF95f99HFoz69pnZTcu8f0SIHV18w==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/inflected/-/inflected-2.1.0.tgz,
+      }
+    name: inflected
+    version: 2.1.0
+    dev: true
+
   registry.npmmirror.com/inflight/1.0.6:
     resolution:
       {
@@ -8557,6 +8595,17 @@ packages:
     version: 3.0.0
     dev: true
 
+  registry.npmmirror.com/lodash.assign/4.2.0:
+    resolution:
+      {
+        integrity: sha512-hFuH8TY+Yji7Eja3mGiuAxBqLagejScbG8GbG0j6o9vzn0YL14My+ktnqtZgFTosKymC9/44wP6s7xyuLfnClw==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/lodash.assign/-/lodash.assign-4.2.0.tgz,
+      }
+    name: lodash.assign
+    version: 4.2.0
+    dev: true
+
   registry.npmmirror.com/lodash.camelcase/4.3.0:
     resolution:
       {
@@ -8566,6 +8615,28 @@ packages:
       }
     name: lodash.camelcase
     version: 4.3.0
+    dev: true
+
+  registry.npmmirror.com/lodash.clonedeep/4.5.0:
+    resolution:
+      {
+        integrity: sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz,
+      }
+    name: lodash.clonedeep
+    version: 4.5.0
+    dev: true
+
+  registry.npmmirror.com/lodash.compact/3.0.1:
+    resolution:
+      {
+        integrity: sha512-2ozeiPi+5eBXW1CLtzjk8XQFhQOEMwwfxblqeq6EGyTxZJ1bPATqilY0e6g2SLQpP4KuMeuioBhEnWz5Pr7ICQ==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/lodash.compact/-/lodash.compact-3.0.1.tgz,
+      }
+    name: lodash.compact
+    version: 3.0.1
     dev: true
 
   registry.npmmirror.com/lodash.debounce/4.0.8:
@@ -8601,6 +8672,17 @@ packages:
     version: 4.5.0
     dev: true
 
+  registry.npmmirror.com/lodash.find/4.6.0:
+    resolution:
+      {
+        integrity: sha512-yaRZoAV3Xq28F1iafWN1+a0rflOej93l1DQUejs3SZ41h2O9UJBoS9aueGjPDgAl4B6tPC0NuuchLKaDQQ3Isg==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/lodash.find/-/lodash.find-4.6.0.tgz,
+      }
+    name: lodash.find
+    version: 4.6.0
+    dev: true
+
   registry.npmmirror.com/lodash.flatten/4.4.0:
     resolution:
       {
@@ -8610,6 +8692,50 @@ packages:
       }
     name: lodash.flatten
     version: 4.4.0
+    dev: true
+
+  registry.npmmirror.com/lodash.forin/4.4.0:
+    resolution:
+      {
+        integrity: sha512-APldePP4yvGhMcplVxv9L+exdLHMRHRhH1Q9O70zRJMm9HbTm6zxaihXtNl+ICOBApeFWoH7jNmFr/L4XfWeiQ==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/lodash.forin/-/lodash.forin-4.4.0.tgz,
+      }
+    name: lodash.forin
+    version: 4.4.0
+    dev: true
+
+  registry.npmmirror.com/lodash.get/4.4.2:
+    resolution:
+      {
+        integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/lodash.get/-/lodash.get-4.4.2.tgz,
+      }
+    name: lodash.get
+    version: 4.4.2
+    dev: true
+
+  registry.npmmirror.com/lodash.has/4.5.2:
+    resolution:
+      {
+        integrity: sha512-rnYUdIo6xRCJnQmbVFEwcxF144erlD+M3YcJUVesflU9paQaE8p+fJDcIQrlMYbxoANFL+AB9hZrzSBBk5PL+g==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/lodash.has/-/lodash.has-4.5.2.tgz,
+      }
+    name: lodash.has
+    version: 4.5.2
+    dev: true
+
+  registry.npmmirror.com/lodash.invokemap/4.6.0:
+    resolution:
+      {
+        integrity: sha512-CfkycNtMqgUlfjfdh2BhKO/ZXrP8ePOX5lEU/g0R3ItJcnuxWDwokMGKx1hWcfOikmyOVx6X9IwWnDGlgKl61w==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/lodash.invokemap/-/lodash.invokemap-4.6.0.tgz,
+      }
+    name: lodash.invokemap
+    version: 4.6.0
     dev: true
 
   registry.npmmirror.com/lodash.isarguments/3.1.0:
@@ -8623,6 +8749,28 @@ packages:
     version: 3.1.0
     dev: true
 
+  registry.npmmirror.com/lodash.isempty/4.4.0:
+    resolution:
+      {
+        integrity: sha512-oKMuF3xEeqDltrGMfDxAPGIVMSSRv8tbRSODbrs4KGsRRLEhrW8N8Rd4DRgB2+621hY8A8XwwrTVhXWpxFvMzg==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/lodash.isempty/-/lodash.isempty-4.4.0.tgz,
+      }
+    name: lodash.isempty
+    version: 4.4.0
+    dev: true
+
+  registry.npmmirror.com/lodash.isequal/4.5.0:
+    resolution:
+      {
+        integrity: sha512-pDo3lu8Jhfjqls6GkMgpahsF9kCyayhgykjyLMNFTKWrpVdAQtYyB4muAMWozBB4ig/dtWAmsMxLEI8wuz+DYQ==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz,
+      }
+    name: lodash.isequal
+    version: 4.5.0
+    dev: true
+
   registry.npmmirror.com/lodash.isfunction/3.0.9:
     resolution:
       {
@@ -8632,6 +8780,17 @@ packages:
       }
     name: lodash.isfunction
     version: 3.0.9
+    dev: true
+
+  registry.npmmirror.com/lodash.isinteger/4.0.4:
+    resolution:
+      {
+        integrity: sha512-DBwtEWN2caHQ9/imiNeEA5ys1JoRtRfY3d7V9wkqtbycnAmTvRRmbHKDV4a0EYc678/dia0jrte4tjYwVBaZUA==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/lodash.isinteger/-/lodash.isinteger-4.0.4.tgz,
+      }
+    name: lodash.isinteger
+    version: 4.0.4
     dev: true
 
   registry.npmmirror.com/lodash.isplainobject/4.0.6:
@@ -8654,6 +8813,39 @@ packages:
       }
     name: lodash.kebabcase
     version: 4.1.1
+    dev: true
+
+  registry.npmmirror.com/lodash.lowerfirst/4.3.1:
+    resolution:
+      {
+        integrity: sha512-UUKX7VhP1/JL54NXg2aq/E1Sfnjjes8fNYTNkPU8ZmsaVeBvPHKdbNaN79Re5XRL01u6wbq3j0cbYZj71Fcu5w==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/lodash.lowerfirst/-/lodash.lowerfirst-4.3.1.tgz,
+      }
+    name: lodash.lowerfirst
+    version: 4.3.1
+    dev: true
+
+  registry.npmmirror.com/lodash.map/4.6.0:
+    resolution:
+      {
+        integrity: sha512-worNHGKLDetmcEYDvh2stPCrrQRkP20E4l0iIS7F8EvzMqBBi7ltvFN5m1HvTf1P7Jk1txKhvFcmYsCr8O2F1Q==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/lodash.map/-/lodash.map-4.6.0.tgz,
+      }
+    name: lodash.map
+    version: 4.6.0
+    dev: true
+
+  registry.npmmirror.com/lodash.mapvalues/4.6.0:
+    resolution:
+      {
+        integrity: sha512-JPFqXFeZQ7BfS00H58kClY7SPVeHertPE0lNuCyZ26/XlN8TvakYD7b9bGyNmXbT/D3BbtPAAmq90gPWqLkxlQ==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/lodash.mapvalues/-/lodash.mapvalues-4.6.0.tgz,
+      }
+    name: lodash.mapvalues
+    version: 4.6.0
     dev: true
 
   registry.npmmirror.com/lodash.memoize/4.1.2:
@@ -8771,6 +8963,17 @@ packages:
     version: 4.5.0
     dev: true
 
+  registry.npmmirror.com/lodash.uniqby/4.7.0:
+    resolution:
+      {
+        integrity: sha512-e/zcLx6CSbmaEgFHCA7BnoQKyCtKMxnuWrJygbwPs/AIn+IMKl66L8/s+wBUn5LRw2pZx3bUHibiV1b6aTWIww==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/lodash.uniqby/-/lodash.uniqby-4.7.0.tgz,
+      }
+    name: lodash.uniqby
+    version: 4.7.0
+    dev: true
+
   registry.npmmirror.com/lodash.upperfirst/4.3.1:
     resolution:
       {
@@ -8780,6 +8983,17 @@ packages:
       }
     name: lodash.upperfirst
     version: 4.3.1
+    dev: true
+
+  registry.npmmirror.com/lodash.values/4.3.0:
+    resolution:
+      {
+        integrity: sha512-r0RwvdCv8id9TUblb/O7rYPwVy6lerCbcawrfdo9iC/1t1wsNMJknO79WNBgwkH0hIeJ08jmvvESbFpNb4jH0Q==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/lodash.values/-/lodash.values-4.3.0.tgz,
+      }
+    name: lodash.values
+    version: 4.3.0
     dev: true
 
   registry.npmmirror.com/lodash/4.17.21:
@@ -9239,6 +9453,45 @@ packages:
       yallist: registry.npmmirror.com/yallist/4.0.0
     dev: true
 
+  registry.npmmirror.com/miragejs/0.1.47:
+    resolution:
+      {
+        integrity: sha512-99tuCbIAlMhNhyF3s5d3+5/FdJ7O4jSq/5e3e+sDv7L8dZdwJuwutXe0pobJ7hm6yRChTDjK+Nn8dZZd175wbg==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/miragejs/-/miragejs-0.1.47.tgz,
+      }
+    name: miragejs
+    version: 0.1.47
+    engines: { node: 6.* || 8.* || >= 10.* }
+    dependencies:
+      '@miragejs/pretender-node-polyfill': registry.npmmirror.com/@miragejs/pretender-node-polyfill/0.1.2
+      inflected: registry.npmmirror.com/inflected/2.1.0
+      lodash.assign: registry.npmmirror.com/lodash.assign/4.2.0
+      lodash.camelcase: registry.npmmirror.com/lodash.camelcase/4.3.0
+      lodash.clonedeep: registry.npmmirror.com/lodash.clonedeep/4.5.0
+      lodash.compact: registry.npmmirror.com/lodash.compact/3.0.1
+      lodash.find: registry.npmmirror.com/lodash.find/4.6.0
+      lodash.flatten: registry.npmmirror.com/lodash.flatten/4.4.0
+      lodash.forin: registry.npmmirror.com/lodash.forin/4.4.0
+      lodash.get: registry.npmmirror.com/lodash.get/4.4.2
+      lodash.has: registry.npmmirror.com/lodash.has/4.5.2
+      lodash.invokemap: registry.npmmirror.com/lodash.invokemap/4.6.0
+      lodash.isempty: registry.npmmirror.com/lodash.isempty/4.4.0
+      lodash.isequal: registry.npmmirror.com/lodash.isequal/4.5.0
+      lodash.isfunction: registry.npmmirror.com/lodash.isfunction/3.0.9
+      lodash.isinteger: registry.npmmirror.com/lodash.isinteger/4.0.4
+      lodash.isplainobject: registry.npmmirror.com/lodash.isplainobject/4.0.6
+      lodash.lowerfirst: registry.npmmirror.com/lodash.lowerfirst/4.3.1
+      lodash.map: registry.npmmirror.com/lodash.map/4.6.0
+      lodash.mapvalues: registry.npmmirror.com/lodash.mapvalues/4.6.0
+      lodash.pick: registry.npmmirror.com/lodash.pick/4.4.0
+      lodash.snakecase: registry.npmmirror.com/lodash.snakecase/4.1.1
+      lodash.uniq: registry.npmmirror.com/lodash.uniq/4.5.0
+      lodash.uniqby: registry.npmmirror.com/lodash.uniqby/4.7.0
+      lodash.values: registry.npmmirror.com/lodash.values/4.3.0
+      pretender: registry.npmmirror.com/pretender/3.4.7
+    dev: true
+
   registry.npmmirror.com/mkdir/0.0.2:
     resolution:
       {
@@ -9279,6 +9532,17 @@ packages:
       pkg-types: registry.npmmirror.com/pkg-types/1.0.2
       ufo: registry.npmmirror.com/ufo/1.1.0
     dev: true
+
+  registry.npmmirror.com/moment/2.29.4:
+    resolution:
+      {
+        integrity: sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/moment/-/moment-2.29.4.tgz,
+      }
+    name: moment
+    version: 2.29.4
+    dev: false
 
   registry.npmmirror.com/mri/1.2.0:
     resolution:
@@ -11017,6 +11281,20 @@ packages:
     engines: { node: '>= 0.8.0' }
     dev: true
 
+  registry.npmmirror.com/pretender/3.4.7:
+    resolution:
+      {
+        integrity: sha512-jkPAvt1BfRi0RKamweJdEcnjkeu7Es8yix3bJ+KgBC5VpG/Ln4JE3hYN6vJym4qprm8Xo5adhWpm3HCoft1dOw==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/pretender/-/pretender-3.4.7.tgz,
+      }
+    name: pretender
+    version: 3.4.7
+    dependencies:
+      fake-xml-http-request: registry.npmmirror.com/fake-xml-http-request/2.1.2
+      route-recognizer: registry.npmmirror.com/route-recognizer/0.3.4
+    dev: true
+
   registry.npmmirror.com/prettier/2.8.4:
     resolution:
       {
@@ -11601,6 +11879,17 @@ packages:
     hasBin: true
     optionalDependencies:
       fsevents: registry.npmmirror.com/fsevents/2.3.2
+    dev: true
+
+  registry.npmmirror.com/route-recognizer/0.3.4:
+    resolution:
+      {
+        integrity: sha512-2+MhsfPhvauN1O8KaXpXAOfR/fwe8dnUXVM+xw7yt40lJRfPVQxV6yryZm0cgRvAj5fMF/mdRZbL2ptwbs5i2g==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/route-recognizer/-/route-recognizer-0.3.4.tgz,
+      }
+    name: route-recognizer
+    version: 0.3.4
     dev: true
 
   registry.npmmirror.com/run-async/2.4.1:

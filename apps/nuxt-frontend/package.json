@@ -10,6 +10,10 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "miragejs": "0.1.47",
     "nuxt": "^3.2.2"
+  },
+  "dependencies": {
+    "moment": "2.29.4"
   }
 }
